@@ -8,6 +8,9 @@ function number(num) {
         default: return num
     }
 }
-
-let x = 5 //? ваше число
-console.log(number(x))
+let x = 14 //? ваше число
+let y = '';
+for (i = 1; i <= x; i++) {
+    y += number(i) + ' '
+}
+console.log(y)
