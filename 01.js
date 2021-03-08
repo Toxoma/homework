@@ -1,16 +1,21 @@
 function number(num) {
-    switch (num) {
-        case 5: return 'пять'
-        case 13: return 'тринадцать'
-        case 22: return 'двадцать два'
-        case 35: return 'тридцать пять'
-        case 98: return 'девяносто восемь'
-        default: return num
+    for (i = 1; i <= num; i++) {
+        switch (i) {
+            case 5: console.log('пять');
+                break;
+            case 13: console.log('тринадцать');
+                break;
+            case 22: console.log('двадцать два');
+                break;
+            case 35: console.log('тридцать пять');
+                break;
+            case 98: console.log('девяносто восемь');
+                break;
+            default: console.log(i);
+                break;
+
+        }
     }
 }
 let x = 14 //? ваше число
-let y = '';
-for (i = 1; i <= x; i++) {
-    y += number(i) + ' '
-}
-console.log(y)
+number(x)
