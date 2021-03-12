@@ -19,3 +19,4 @@ function number(num) {
 }
 let x = 14 //? ваше число
 number(x)
+//1223
