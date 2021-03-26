@@ -1,0 +1,21 @@
+.wrapp {
+    width: 50%;
+    margin: 0 auto;
+}
+.row {
+    border: 1px solid #000;
+    margin: 30px 0px 0px 0px;
+    padding: 20px 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.load {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.block {
+    display: none;
+}
